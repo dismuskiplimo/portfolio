@@ -6,6 +6,7 @@ var myName = document.getElementById('my-name');
 var myCareer = document.getElementById('my-career');
 var scrollWheel = document.getElementById('scroll-wheel');
 var nav = document.getElementById('nav');
+var logo = document.getElementById('logo');
 var links = nav.children[0].children[0].children;
 var socialMediaIcons = document.getElementsByClassName('fab');
 
@@ -54,13 +55,17 @@ window.addEventListener("scroll", function(e){
 
     if(yOffset > bannerHeight / 1.2){
         nav.style.backgroundColor = "#5d4037";
+        logo.style.display = "none";
         
         for(var i = 0; i < links.length; i++){
             links[i].firstChild.style.color = "#fafafa";
         }
 
+
+
     }else{
         nav.style.backgroundColor = "initial";
+        logo.style.display = "initial";
 
         for(var i = 0; i < links.length; i++){
             links[i].firstChild.style.color = "#5d4037";
