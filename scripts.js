@@ -37,7 +37,7 @@ window.addEventListener("scroll", function(e){
     }
 
     if(window.innerWidth > 680){
-        if(yOffset > bannerHeight / 1.3){
+        if(yOffset > bannerHeight / 1.8){
             for(var i = 0; i < socialMediaIcons.length; i++){
                 socialMediaIcons[i].style.color = "#fafafa";
             }
