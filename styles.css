@@ -27,6 +27,7 @@ nav{
     right: 0;
     height: 45px;
     z-index: 100;
+    transition: all ease-in-out .3s;
 }
 
 nav ul{
