@@ -202,6 +202,10 @@ nav ul li a span{
     background-color: #37474f;
     padding-top: 50px;
     padding-bottom: 50px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #previous-works{
