@@ -70,7 +70,7 @@ nav ul li a span{
 #banner{
     display: flex;
     height: 200vh;
-    background-color: black;
+    background-color: #fafafa;
     color: aliceblue;
     width: 100%;
     background-image: url("img/light-bg.jpg");
@@ -214,6 +214,10 @@ nav ul li a span{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("img/dark-bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #previous-works{
