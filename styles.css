@@ -281,3 +281,17 @@ nav ul li a span{
         padding-bottom: 100px;
     }
 }
+
+#coming-soon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fafafa;
+    color:#5d4037;
+    width: 100%;
+    background-image: url("img/light-bg.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
