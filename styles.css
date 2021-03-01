@@ -246,6 +246,12 @@ nav ul li a span{
     transition: opacity ease-in-out .3s;
 }
 
+.showcase > div > a{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
 .relative{
     position: relative;
 }
